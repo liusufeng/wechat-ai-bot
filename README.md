@@ -2,17 +2,15 @@
 
 一个 基于 `nestjs` + `openai` + `wechaty` 的微信机器人
 
-## 开发
+### 1. 检查好自己的开发环境，确保已经安装了 `nodejs` , 版本需要满足 Node.js >= v18.0 ，版本太低会导致运行报错,最好使用 LTS 版本。
 
-1. 检查好自己的开发环境，确保已经安装了 `nodejs` , 版本需要满足 Node.js >= v18.0 ，版本太低会导致运行报错,最好使用 LTS 版本。
-
-2. 先获取自己的 `api key`，地址戳这里 👉🏻 ：[创建你的 api key](https://platform.openai.com/account/api-keys)
+### 2. 先获取自己的 `api key`，地址戳这里 👉🏻 ：[创建你的 api key](https://platform.openai.com/account/api-keys)
 
     ![](image1.png)
 
-3. 创建数据库 sql文件在项目根路径 `wechat-ai-bot.sql`，直接运行sql即可
+### 3. 创建数据库 sql文件在项目根路径 `wechat-ai-bot.sql`，直接运行sql即可
 
-4. 创建完了，然后在项目`src/configs/index.ts`文件中修改相关配置，内容如下：
+### 4. 创建完了，然后在项目`src/configs/index.ts`文件中修改相关配置，内容如下：
 
     ```
     export default {
@@ -44,7 +42,7 @@
     }
     ```
 
-5. 运行服务
+### 5. 运行服务
     
    ```
    # 安装依赖
